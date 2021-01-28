@@ -165,31 +165,30 @@ p {
 
 /* Responsive web design */
 
-.social-media-marketing img {
-    max-height: 200px;
-}
+@media screen and (max-width: 992px) {
+	a {
+		font-size: 15px;
+	}
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+@media screen and (max-width: 768px) {
+	a {
+		font-size: 12px;
+	}
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
+@media screen and (max-width: 576px) {
+	a {
+		font-size: 8px;
+	}
 
 .footer h2 {
     font-size: 20px;
