@@ -50,6 +50,8 @@ p {
     font-size: 16px;
 }
 
+
+/* Add artificial padding to the webpage, between the header and the content */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +60,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .float-left {
     float: left;
@@ -68,6 +71,7 @@ p {
     float: right;
     margin-left: 25px;
 }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .content {
     width: 75%;
@@ -158,9 +162,8 @@ p {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
+
+/* Responsive web design */
 
 .social-media-marketing img {
     max-height: 200px;
@@ -191,3 +194,5 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~ */
