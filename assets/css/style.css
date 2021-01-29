@@ -1,3 +1,5 @@
+
+/* Make the box model a bit more intuitive */
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -8,6 +10,8 @@ body {
 	background-color: #d9dcd6;
 }
 
+
+/* Navigation */
 .header {
 	padding: 20px;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -55,9 +59,6 @@ p {
 	background-size: cover;
 	background-position: center;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-
 
 /* For altering the location of the content block images */
 .float-left {
@@ -69,9 +70,8 @@ p {
 	float: right;
 	margin-left: 25px;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-
+/* Style the remaining page elements */
 .content {
 	width: 75%;
 	display: inline-block;
@@ -125,6 +125,8 @@ p {
 		font-size: 36px;
 	}
 
+
+/* Copyright info */
 .footer {
 	padding: 30px;
 	clear: both;
