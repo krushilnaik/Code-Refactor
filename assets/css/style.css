@@ -46,7 +46,7 @@ p {
 }
 
 
-/* Add artificial padding to the webpage, between the header and the content */
+/* The head image on the page */
 .hero {
 	height: 800px;
 	width: 100%;
